@@ -1,19 +1,34 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { useMediaQuery } from 'react-responsive';
+
+const Desktop = ({ children }: any) => {
+  const isDesktop = useMediaQuery({ minWidth: 992 });
+  return isDesktop ? children : null;
+};
+const Tablet = ({ children }: any) => {
+  const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 991 });
+  return isTablet ? children : null;
+};
+const Mobile = ({ children }: any) => {
+  const isMobile = useMediaQuery({ maxWidth: 767 });
+  return isMobile ? children : null;
+};
+const Default = ({ children }: any) => {
+  const isNotMobile = useMediaQuery({ minWidth: 768 });
+  return isNotMobile ? children : null;
+};
 
 function App() {
   return (
     <div className='App'>
-      <header className='App-header'>
-        <img src={logo} className='App-logo' alt='logo' />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a className='App-link' href='https://reactjs.org' target='_blank' rel='noopener noreferrer'>
-          Learn React
-        </a>
-      </header>
+      <Desktop>Desktop</Desktop>
+      <Tablet>
+        <div>하이</div>
+      </Tablet>
+      <Mobile>Mobile</Mobile>
+      {/* <Default>Not mobile</Default> */}
     </div>
   );
 }
