@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import { useMediaQuery } from 'react-responsive';
 import { Route, Routes } from 'react-router-dom';
@@ -16,14 +16,16 @@ const Mobile = ({ children }: any) => {
 };
 
 function App() {
+  const [active, setActive] = useState(1);
+
   return (
     <div className='App'>
       <Desktop>Desktop</Desktop>
       <Mobile>
         <div>
-          <TopNavigator />
+          <TopNavigator active={active} setActive={setActive} />
           <Routes>
-            <Route path='/' element={<Main />} />
+            <Route path='/' element={<Main setActive={setActive} />} />
             <Route path='/apply' element={<Apply />} />
           </Routes>
         </div>

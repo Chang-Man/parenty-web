@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from './TopNavigator.module.scss';
 
-const TopNavigator = () => {
+const TopNavigator = ({ active, setActive }: any) => {
   const navigate = useNavigate();
-  const [active, setActive] = useState(1);
   return (
     <nav className={styles.wrapper}>
       <div className={styles.title}>가장 효율적인 유아부모 교육 Parenty</div>
