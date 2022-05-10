@@ -14,7 +14,9 @@ const Apply = () => {
         20명 초과 시, 추첨을 통해 선발합니다.
         <br />
         <br />
-        <button className={styles.link}>신청 링크 연결</button>
+        <button className={styles.link} onClick={() => window.open('https://forms.gle/RGrwkVbvHWqNukbV8', '_blank')}>
+          신청 링크 연결
+        </button>
       </div>
     </div>
   );
