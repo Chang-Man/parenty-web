@@ -1,6 +1,14 @@
 .wrapper {
   width: 100%;
   font-family: Pretendard;
+  button {
+    color: white;
+    border: none;
+    font-size: 17px;
+    width: 200px;
+    height: 50px;
+    background-color: #0c163a;
+  }
   .wrapper1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../static/images/intro1.jpg);
     background-size: 300%;
@@ -55,7 +63,7 @@
         display: inline-block;
         font-size: 20px;
         font-weight: bold;
-        margin-top: 50px;
+        margin-top: 8%;
       }
 
       #small {
@@ -109,6 +117,276 @@
         width: 200px;
         height: 50px;
         background-color: #0c163a;
+      }
+    }
+  }
+  .wrapper3 {
+    width: 100%;
+    height: 84vh;
+    background-color: #eeeeee;
+    .text3 {
+      .highlight {
+        display: inline-block;
+        margin-top: 50px;
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 70px;
+      }
+      .saying {
+        display: inline-block;
+        margin-bottom: 20px;
+      }
+      .line {
+        display: inline-block;
+        margin-bottom: 40px;
+        font-size: 14px;
+        .strong {
+          font-weight: bold;
+        }
+      }
+      .blue {
+        font-size: 15px;
+        color: #3a4ca8;
+        display: inline-block;
+        margin-bottom: 70px;
+      }
+      .magnify {
+        transform: scaleX(-1);
+        margin-top: 50px;
+        margin-left: 190px;
+      }
+    }
+  }
+  .wrapper4 {
+    width: 100%;
+    height: 84vh;
+    background-color: #eeeeee;
+    .text4 {
+      .ques {
+        margin-top: 30px;
+        font-weight: bold;
+        font-size: 25px;
+        display: inline-block;
+        margin-bottom: 30px;
+      }
+      .small {
+        display: inline-block;
+        font-size: 15px;
+        margin-top: 20px;
+      }
+      .green {
+        color: #2fa599;
+      }
+      .strong {
+        font-weight: bold;
+      }
+      .table {
+        margin-top: 50px;
+        width: 95%;
+      }
+      .blue {
+        color: #3a4ca8;
+      }
+    }
+  }
+  .wrapper5 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../static/images/intro2.jpg);
+    background-size: 300%;
+    background-repeat: no-repeat;
+    background-position: -350px;
+    width: 100%;
+    height: 84vh;
+    opacity: 0.7;
+    position: relative;
+    .text5 {
+      color: white;
+      .big {
+        margin-top: 50px;
+        display: inline-block;
+        font-size: 21px;
+        font-weight: bold;
+      }
+      .box {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(221, 221, 221);
+        line-height: 35px;
+        font-size: 15px;
+        width: 80%;
+        opacity: 0.7;
+        height: 140px;
+        color: rgb(0, 0, 0);
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        span {
+          line-height: 20px;
+        }
+        .line {
+          width: 60px;
+          height: 60px;
+          border-top: 2px solid black;
+          border-left: 2px solid black;
+          border-bottom: 2px solid black;
+        }
+      }
+      .explain {
+        display: inline-block;
+        font-size: 12px;
+        color: white;
+      }
+      .divideLine {
+        width: 90%;
+        height: 5px;
+        border-bottom: 2px solid white;
+        margin: 0 auto 0 auto;
+      }
+      .que {
+        display: inline-block;
+        font-weight: bold;
+        margin-bottom: 30px;
+      }
+      .ex {
+        font-size: 13px;
+      }
+    }
+  }
+
+  .wrapper6 {
+    width: 100%;
+    height: 84vh;
+    background-color: #eeeeee;
+    .text6 {
+      .big {
+        display: inline-block;
+        margin-top: 20%;
+        font-size: 25px;
+        margin-bottom: 10%;
+        color: black;
+        font-weight: bold;
+        .blue {
+          color: #3a4ca8;
+        }
+      }
+      .strong {
+        font-weight: bold;
+        .blue {
+          color: #3a4ca8;
+        }
+      }
+      .small {
+        font-size: 13px;
+        display: inline-block;
+        margin-bottom: 30%;
+      }
+      .middle {
+        font-size: 15px;
+      }
+    }
+  }
+
+  .wrapper7 {
+    width: 100%;
+    height: 84vh;
+    background-color: #eeeeee;
+    .text7 {
+      .intro {
+        display: inline-block;
+        margin-bottom: 20px;
+        font-weight: bold;
+        font-size: 30px;
+        color: #3a4ca8;
+      }
+      .strong {
+        font-weight: bold;
+      }
+
+      .small {
+        display: inline-block;
+        margin-bottom: 20%;
+        font-size: 13px;
+      }
+
+      .name {
+        display: inline-block;
+        font-size: 20px;
+        margin-bottom: 8%;
+      }
+
+      #logo {
+        margin-top: 10%;
+        width: 50%;
+      }
+    }
+  }
+
+  .wrapper8 {
+    width: 100%;
+    height: 84vh;
+    background-color: #eeeeee;
+    .text8 {
+      .box {
+        margin-top: 15%;
+        width: 250px;
+        height: 50px;
+        line-height: 50px;
+        display: inline-block;
+        font-size: 25px;
+        background-color: #c2c2c2;
+        margin-bottom: 12%;
+      }
+      .price {
+        text-decoration: line-through;
+      }
+      .blue {
+        color: #3a4ca8;
+        display: inline-block;
+        margin-bottom: 18%;
+      }
+      .strong {
+        font-weight: bold;
+      }
+      .applyButton {
+        margin-top: 13%;
+        margin-bottom: 10%;
+      }
+    }
+  }
+
+  .wrapper9 {
+    width: 100%;
+    height: 75vh;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(../../static/images/intro3.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    .text9 {
+      width: 100%;
+      height: 75vh;
+      background-color: white;
+      opacity: 0.7;
+      position: absolute;
+      z-index: 3;
+      .strong {
+        font-weight: bold;
+      }
+      .title {
+        margin-top: 10%;
+        display: inline-block;
+        font-weight: bold;
+        font-size: 30px;
+      }
+      .small {
+        display: inline-block;
+        font-size: 15px;
+        margin-bottom: 10%;
+      }
+
+      .applyButton {
+        margin-top: 20px;
       }
     }
   }
