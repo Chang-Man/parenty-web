@@ -29,7 +29,13 @@
         font-size: 60px;
         display: block;
       }
+      .mytxt {
+        display: inline-block;
+        line-height: 25px;
+      }
       #small {
+        display: inline-block;
+        line-height: 20px;
         font-size: 14px;
         display: block;
         margin-bottom: 15%;
@@ -41,6 +47,8 @@
         color: #ffce48;
       }
       #checks {
+        display: inline-block;
+        line-height: 25px;
         font-size: 15px;
         margin-top: 20%;
         display: block;
@@ -378,6 +386,11 @@
         display: inline-block;
         font-weight: bold;
         font-size: 30px;
+        margin-bottom: 10%;
+      }
+      .txt {
+        display: inline-block;
+        line-height: 23px;
       }
       .small {
         display: inline-block;

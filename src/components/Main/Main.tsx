@@ -28,12 +28,14 @@ const Main = ({ setActive }: any) => {
             비전문적이고 방대한 육아 정보에 지치셨나요?
           </span>
           <br />
-          <RiDoubleQuotesL />
-          <br />
-          <span id={styles.pink}>다른 아이 이야기</span>로 가득 찬 비효율적인 방식이 아닌, <br />
-          <span className={styles.yellow}>내 아이 이야기</span>로 가득 찬 <span className={styles.yellow}>LIVE 수업</span>을 경험하세요!
-          <br />
-          <RiDoubleQuotesR />
+          <span className={styles.mytxt}>
+            <RiDoubleQuotesL />
+            <br />
+            <span id={styles.pink}>다른 아이 이야기</span>로 가득 찬 비효율적인 방식이 아닌, <br />
+            <span className={styles.yellow}>내 아이 이야기</span>로 가득 찬 <span className={styles.yellow}>LIVE 수업</span>을 경험하세요!
+            <br />
+            <RiDoubleQuotesR />
+          </span>
           <br />
           <span id={styles.checks}>
             <BsCheck />
@@ -330,19 +332,21 @@ const Main = ({ setActive }: any) => {
             </span>
           </span>
           <br />
-          Parenty는
-          <br />
-          맘카페나 지인, 육아 서적이나 방송 프로그램을 통해서는
-          <br />
-          얻기 어려운,
-          <span className={styles.strong}>
-            오로지 나만을 위한 부모교육을 통해
+          <span className={styles.txt}>
+            Parenty는
             <br />
-            가장 효율적으로 프리미엄 부모교육을 제공하는
+            맘카페나 지인, 육아 서적이나 방송 프로그램을 통해서는
             <br />
-            플랫폼
+            얻기 어려운,
+            <span className={styles.strong}>
+              오로지 나만을 위한 부모교육을 통해
+              <br />
+              가장 효율적으로 프리미엄 부모교육을 제공하는
+              <br />
+              플랫폼
+            </span>
+            입니다.
           </span>
-          입니다.
           <br />
           <br />
           어렵고 막막했던 좋은 부모 되기.
