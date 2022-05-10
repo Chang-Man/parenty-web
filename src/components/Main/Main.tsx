@@ -348,8 +348,10 @@ const Main = ({ setActive }: any) => {
           어렵고 막막했던 좋은 부모 되기.
           <br />
           Parenty가 스마트하고 효율적으로 알려드리겠습니다.
+          <br />
+          <br />
           <button
-            className={styles.applyButton}
+            className={styles.applyButtonL}
             onClick={() => {
               navigate('/apply');
               setActive(2);
