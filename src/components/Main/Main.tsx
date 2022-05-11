@@ -294,7 +294,7 @@ const Main = ({ setActive }: any) => {
           <br />
           5월 12일(목)~5월 17일(화) 23시 59분까지 신청시
           <br />
-          30만원
+          <span className={styles.blue}>30만원</span>
           <br />
           <button
             className={styles.applyButton}

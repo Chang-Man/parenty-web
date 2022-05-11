@@ -15,7 +15,7 @@ const Apply = () => {
         <br />
         <br />
         <button className={styles.link} onClick={() => window.open('https://forms.gle/RGrwkVbvHWqNukbV8', '_blank')}>
-          신청 링크 연결
+          신청하기
         </button>
       </div>
     </div>
