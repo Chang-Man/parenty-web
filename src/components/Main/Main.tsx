@@ -39,7 +39,7 @@ const Main = ({ setActive }: any) => {
           <br />
           <span id={styles.checks}>
             <BsCheck />
-            아이가 크면서 부모와 멀어지지 않을가 고민이 된다면?
+            아이가 크면서 부모와 멀어지지 않을까 고민이 된다면?
             <br />
             <BsCheck />
             전문가의 맞춤식 부모 교육 수업을 경험해보고 싶다면?
@@ -77,9 +77,9 @@ const Main = ({ setActive }: any) => {
           </span>
           <br />
           <div className={styles.applyBox}>
-            모집 기간: 5월 12일(목)-22일(금)
+            모집 기간: 5월 12일(목)-29일(일)
             <br />
-            수강 기간: 5월 23일(월)-6월 20일(월)
+            수강 기간: 6월 13일(월)-7월 10일(일)
             <br />
             (20명 초과 시, 추첨을 통해 선발)
           </div>
@@ -147,12 +147,12 @@ const Main = ({ setActive }: any) => {
           <br />
           그동안 <span className={styles.strong}>비전문적이고 비효율적인 양육 정보</span>와
           <br />
-          부모 교육으로 <span className={styles.strong}>많이 힘드셔죠?</span>
+          부모 교육으로 <span className={styles.strong}>많이 힘드셨죠?</span>
           <br />
           <br />
           <span className={styles.blue}>parenty 만의</span>
           <br />
-          <span className={styles.blue}>전문적이고 효율적이고 맞춤식 교육</span>을 통해
+          <span className={styles.blue}>전문적이고 효율적인 맞춤식 교육</span>을 통해
           <br />
           부모님들의 고통을 해결해드리겠습니다.
         </div>
@@ -222,7 +222,7 @@ const Main = ({ setActive }: any) => {
             이란?
           </span>
           <br />
-          <span className={styles.strong}>Parenty Time</span>은 신청 시 미저 제출하지 못한 내용을
+          <span className={styles.strong}>Parenty Time</span>은 신청 시 미처 제출하지 못한 내용을
           <br />
           <br />
           <span className={styles.strong}>
@@ -251,7 +251,7 @@ const Main = ({ setActive }: any) => {
             <br />
             <br />
             <span className={styles.strong}>
-              전문가와의 <span className={styles.blue}>쌍뱡향 LIVE 화상 수업(ZOOM)</span>입니다.
+              전문가와의 <span className={styles.blue}>쌍방향 LIVE 화상 수업(ZOOM)</span>입니다.
             </span>
           </span>
         </div>
@@ -292,7 +292,7 @@ const Main = ({ setActive }: any) => {
           <br />
           <span className={styles.strong}>얼리버드시 추가 할인</span>
           <br />
-          5월 12일(목)~5월 17일(화) 23시 59분까지 신청시
+          5월 12일(목)~5월 25일(수) 23시 59분까지 신청시
           <br />
           <span className={styles.blue}>30만원</span>
           <br />

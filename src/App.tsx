@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div className='App'>
-      <Desktop>Desktop</Desktop>
+      <Desktop>모바일로 접속해주세요!</Desktop>
       <Mobile>
         <div>
           <TopNavigator active={active} setActive={setActive} />
