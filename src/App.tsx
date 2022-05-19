@@ -18,6 +18,12 @@ const Mobile = ({ children }: any) => {
 function App() {
   const [active, setActive] = useState(1);
 
+  useEffect(() => {
+    ReactGa.initialize('My Tracking ID');
+    ReactGA.set({ page: window.location.pathname });
+    ReactGa.pageview(window.location.pathname + window.location.search);
+  }, []);
+
   return (
     <div className='App'>
       <Desktop>모바일로 접속해주세요!</Desktop>
