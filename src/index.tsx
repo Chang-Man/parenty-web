@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import './static/fonts/font.css';
+import ReactGA from 'react-ga';
 
 ReactDOM.render(
   <React.StrictMode>
